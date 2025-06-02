@@ -92,8 +92,13 @@ ul {
 }
 
 a {
+    color: white;
     text-decoration: none;
     cursor: pointer;
+}
+
+a:hover {
+    color: var(--skin-color);
 }
 
 img {
